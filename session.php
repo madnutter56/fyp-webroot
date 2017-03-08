@@ -2,4 +2,5 @@
 
 session_start();
 
-echo 'cookie is: ' . $_COOKIE['PHP_SESSID'];
+echo 'This server is ' . gethostname();
+echo 'cookie is: ' . $_COOKIE['PHPSESSID'];
